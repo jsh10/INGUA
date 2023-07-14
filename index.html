@@ -63,10 +63,10 @@
 							<nav class="main_nav_contaner ml-auto">
 								<ul class="main_nav">
 									<li class="active"><a href="#">Inicio</a></li>
-									<li><a href="#">Nosotros</a></li>
+									<li><a href="#nosotros">Nosotros</a></li>
 									<li><a href="#bachilleratos">Bachilleratos</a></li>
 									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contacto</a></li>
+									<li><a href="#contacto">Contacto</a></li>
 								</ul>
 								<div class="search_button"><i class="fa fa-search"></i></div>
 
@@ -116,10 +116,10 @@
 		<nav class="menu_nav">
 			<ul class="menu_mm">
 				<li class="menu_mm"><a href="index.html">Inicio</a></li>
-				<li><a href="#">Nosotros</a></li>
+				<li><a href="#nosotros">Nosotros</a></li>
 				<li><a href="#bachilleratos">Bachilleratos</a></li>
 				<li><a href="#">Blog</a></li>
-				<li><a href="#">Contacto</a></li>
+				<li><a href="#contacto">Contacto</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -142,7 +142,7 @@
 									<div class="home_slider_title">"La mejor forma de predecir el futuro es crearlo"</div>
 									<div class="home_slider_subtitle">Peter Drucker</div>
 									<div class="home_slider_form_container">
-										<div class="courses_button trans_200" style="border-radius: 60px; width:50%; background:#0ea7d1;"><a href="#features">Sobre nosotros</a></div>
+										<div class="courses_button trans_200" style="border-radius: 60px; width:50%; background:#0ea7d1;"><a href="#nosotros">Sobre nosotros</a></div>
 									</div>
 								</div>
 							</div>
@@ -165,7 +165,7 @@
 
 	<!-- Features -->
 
-	<div class="features" id="features">
+	<div class="features" id="nosotros">
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -321,14 +321,19 @@
 
 	<!-- Counter -->
 
-	<div class="counter">
-		<div class="counter_background" style="background-image:url(images/counter_background.jpg)"></div>
+	<div class="counter" id="contacto">
+		<div class="counter_background" style="background-image:url(images/counter_background2.jpg)"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="counter_content">
 						<h2 class="counter_title">¡Se parte de la familia INGUA!</h2>
-						<div class="counter_text"><p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dumy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
+						<div class="counter_text">
+							<p class="text-justify">
+								Bienvenido(a) al proceso de preregistro del Instituto Nacional de Guatajiagua.
+								Estamos emocionados de acompañarte en este importante paso hacia tu crecimiento académico y personal. ¡Únete a nosotros en el Instituto Nacional de Guatajiagua y comienza a construir tu futuro hoy mismo!
+							</p>
+						</div>
 
 						<!-- Milestones -->
 
@@ -372,7 +377,7 @@
 								<option>Administrativo Contable</option>
 								<option>Desarrollo de Software</option>
 							</select>
-							<textarea name="mensaje" id="mensaje" class="counter_input counter_text_input" placeholder="Mensaje..." required="required"></textarea>
+							<textarea name="mensaje" id="mensaje" class="counter_input counter_text_input" placeholder="Mensaje (Opcional)" required="required"></textarea>
 							<button type="submit" class="counter_form_button">Enviar</button>
 						</form>
 					</div>
@@ -494,7 +499,7 @@
 						<!-- Newsletter Form -->
 						<div class="newsletter_form_container ml-lg-auto">
 							<form action="https://formspree.io/f/xyyqyvvq" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center" method="POST">
-								<input name="email"	id="email" type="email" class="newsletter_input" placeholder="Ingrese su emai" required="required">
+								<input name="email"	id="email" type="email" class="newsletter_input" placeholder="Ingrese su correo electrónico" required="required">
 								<button type="submit" class="newsletter_button">Suscribirse</button>
 							</form>
 						</div>
